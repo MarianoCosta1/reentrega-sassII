@@ -9,11 +9,6 @@ $tamañoimagenquienessomos: 350px;
 
 $tamañotitulo: 800px;
 
-
-
-
-
-
     $estilos: (
         color: violet,
         centro: center,
