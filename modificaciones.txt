@@ -1,3 +1,8 @@
+agregue lo correspondiente a SASSII dentro del archivo _variables_scss dentro de la carpeta scss
+
+se agrego... @extend, map-get, @mixin, variables.
+
+
 $tamañodeimagenchica:300px;
 $tamañoimagenproyectos:350px;
 $tamañoimagenquienessomos: 350px;
@@ -29,21 +34,11 @@ $tamañotitulo: 800px;
         background-color: aqua;
         font-size: 25px;
 
-    }
 
-    .relevamiento_index{
-        @extend .subtitulo_index;
-        border:  2px solid red;
-    }
+SEO
+se agrego keywords dentro del head y una descripción a cada pagina html, en algunos casos cambian las palabras clave.
 
-   @mixin sizes ($width, $height){
-       width: $width;
-       height: $height; 
-   }
+<meta name="keywords" content="topografia, trabajos, relevamientos, grafia">
+<meta name="description" content="Mejoramos cualquier presupuesto">
 
-   .contenedorgeneral1{
-       @include sizes (400px , 400px);
-   }
-       
-   
 
